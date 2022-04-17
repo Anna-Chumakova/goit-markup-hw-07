@@ -1,0 +1,36 @@
+.social-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.team-item-social {
+    margin-right: 10px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.social-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    transition: background-color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+        background-color: var(--select-color);
+    }
+}
+.social-icon {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
+    transition: fill 250ms var(--timing-function);
+    .social-link:hover &,
+    .social-link:focus & {
+        fill: #ffffff;
+    }
+}
+

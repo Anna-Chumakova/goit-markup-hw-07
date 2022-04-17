@@ -1,0 +1,39 @@
+.adge-flex {
+    display: flex;
+}
+.adge-item {
+    width: calc((100% - 90px) / 4);
+    margin-right: 30px;
+
+   &:last-child {
+    margin-right: 0;
+}
+}
+
+.icon-background {
+    height: 120px;
+    background-color: var(--section-team-background);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-adge {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.adge-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.adge-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
