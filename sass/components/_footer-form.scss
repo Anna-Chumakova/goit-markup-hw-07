@@ -1,23 +1,16 @@
-.footer-form-flex {
-    display: flex;
-    align-items: baseline;
-}
-.footer-form-text {
-    margin-bottom: 20px;
-}
-.form-flex {
+.form {
     display: flex;
     justify-content: center;
     margin-right: 0;
 }
-.footer-label {
+.footer__label {
     margin-right: 12px;
     &:last-child {
         margin-right: 0;
     }
 }
 
-.footer-input {
+.footer__input {
     width: 358px;
     height: 50px;
     padding-left: 16px;
@@ -25,10 +18,4 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: transparent;
-}
-.form-footer-icon {
-    width: 24px;
-    height: 24px;
-    fill: #FFFFFF;
-    margin-left: 10px;
 }

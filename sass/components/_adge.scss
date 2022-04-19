@@ -1,7 +1,7 @@
-.adge-flex {
+.adge {
     display: flex;
 }
-.adge-item {
+.adge__item {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
 
@@ -10,7 +10,7 @@
 }
 }
 
-.icon-background {
+.adge__icon-background {
     height: 120px;
     background-color: var(--section-team-background);
     margin-bottom: 30px;
@@ -18,12 +18,12 @@
     align-items: center;
     justify-content: center;
 }
-.icon-adge {
+.adge__icon {
     width: 70px;
     height: 70px;
     background-size: cover;
 }
-.adge-subtitle {
+.adge__subtitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -33,7 +33,7 @@
     margin-top: 0;
     margin-bottom: 10px;
 }
-.adge-text {
+.adge__text {
     margin-top: 0;
     margin-bottom: 0;
 }

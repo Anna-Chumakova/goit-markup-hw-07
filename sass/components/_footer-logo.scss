@@ -1,9 +1,9 @@
-.logo-footer {
+.footer__logo {
     display: block;
     margin-top: 0;
     margin-bottom: 20px;
 }
-.logo__link {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -11,7 +11,7 @@
     letter-spacing: 0.03em;
     color: var(--select-color);
 }
-.footer-item-logo {
+.logo__item--light {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;

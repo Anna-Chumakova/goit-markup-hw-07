@@ -1,4 +1,4 @@
-.footer-text {
+.footer__text {
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
@@ -10,18 +10,18 @@
     margin-bottom: 20px;
     display: inline-block;
 }
-.footer-icon-flex {
+.social__footer {
     display: flex;
     justify-content: center;
 }
-.footer-item {
+.social__item {
     margin-right: 10px;
     &:last-child {
         margin-right: 0;
     }
 }
 
-.footer-link {
+.social__link {
     width: 44px;
     height: 44px;
     display: flex;
@@ -36,7 +36,7 @@
     }
 }
 
-.footer-icon {
+.footer__icon {
     width: 20px;
     height: 20px;
     fill: #ffffff;

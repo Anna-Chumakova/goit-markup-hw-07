@@ -1,12 +1,12 @@
-.work {
+.section__work {
     padding-top: 0;
 }
-.work-flex {
+.work__list {
     display: flex;
 }
-.work-item {
+.work__item {
     position: relative;
-    width: calc((100% -60px) / 3);
+    width: calc((100% - 60px) / 3);
     margin-right: 30px;
     z-index: -1;
     &:last-child {
@@ -14,7 +14,7 @@
     }
 }
 
-.work-text {
+.work__text {
     position: absolute;
     left: 0;
     bottom: 0;

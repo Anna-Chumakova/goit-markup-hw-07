@@ -1,11 +1,10 @@
-.team {
-    text-align: center;
+.section--dark {
     background-color: var(--section-team-background);
 }
-.team-flex {
+.team {
     display: flex;
 }
-.team-item {
+.team__item {
     margin-right: 30px;
 
     background: #ffffff;
@@ -17,11 +16,12 @@
     }
 }
 
-.team-name {
+.team__name {
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
 }
-.team-subtitle {
+.team__subtitle {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -30,7 +30,7 @@
     margin-top: 0;
     margin-bottom: 10px;
 }
-.team-text {
+.team__text {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
